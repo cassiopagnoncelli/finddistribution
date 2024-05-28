@@ -15,7 +15,9 @@ LazyData: true
 Depends:
     R (>= 4.4.0)
 Imports:
+    compiler (>= 4.4.0),
     dplyr,
+    GenSA (>= 1.1.14),
     pso (>= 1.0.4),
     stringr (>= 1.5.1)
 Roxygen: list(markdown = TRUE)
